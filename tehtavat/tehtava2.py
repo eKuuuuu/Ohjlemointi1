@@ -10,6 +10,11 @@ def ympyra():
     pintaala = 3.14 * (sade*sade)
     print("Ympyrän pinta-ala on ", pintaala)
 
+def suorakulmuio():
+    korkeus = int(input("Anna suorakulmion korkeus:"))
+    kanta = int(input("Anna kannan korkeus:"))
+    print(f"Piiri on {korkeus*2+kanta*2} suorakulmuio,ja pinta-ala on {kanta*korkeus}")
+
 def kokonaisluvut():
     x = int(input("Anna ensimmäinen kokonaisluku: "))
     y = int(input("Anna toinen kokonaisluku: "))
@@ -44,7 +49,7 @@ def arpa():
     print(kolmenumeroinen)
     print(neljanumeroinen)
 
-
+suorakulmuio()
 ##nimi()
 ##ympyra()
 ##kokonaisluvut()
