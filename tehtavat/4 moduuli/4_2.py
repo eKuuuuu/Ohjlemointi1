@@ -4,4 +4,4 @@ while True:
         print("Ohjelma loppuu")
         break
     else:
-        print(f"Tuumien määrä on {luku*2.54} sentimetriä")
+        print(f"Tuumien määrä on {(luku*2.54):2f} sentimetriä")
