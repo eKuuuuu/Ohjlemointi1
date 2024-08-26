@@ -1,4 +1,5 @@
 sukupoli = input("Anna biolooginen sukupoli:")
+sukupoli = sukupoli.lower()
 hemoglobiiniarvo = int(input("Anna hemoglobiiniarvo arvo:"))
 
 if sukupoli == "Nainen":
